@@ -1,0 +1,90 @@
+.v-collapse {
+  display: none;
+}
+
+.text-black {
+  color: black;
+}
+
+.cursor {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#menu-navigation li{
+  display: inline-block;
+}
+#menu-navigation  a:first-child{
+  font-weight: bold;
+}
+#menu-navigation a {
+  color: white;
+  position: relative;
+  padding: 0 10px 15px 10px;
+
+}
+#menu-navigation a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.2s;
+}
+#menu-navigation a:hover::after {
+  width: 100%;
+  background: white;
+}
+
+.imgart {
+  position: relative;
+}
+.imgart .datepost, .imgart .catpost {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  left: 10px;
+  top: 10px;
+  background-color: #63636370;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.imgart .datepost {
+  top: 46px;
+}
+
+.paralax {
+  background-image: url("https://designmodo.com/wp-content/uploads/2016/03/bootstrap-4-coming.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100%;
+  box-shadow: 0px -10px 19px 0 #ffffff50 inset;
+  position: relative;
+}
+.paralax figure {
+  opacity: 0;
+}
+.paralax .guidebas {
+  position: absolute;
+  left: 48%;
+  top: 85vh;
+}
+
+/*# sourceMappingURL=style.css.map */

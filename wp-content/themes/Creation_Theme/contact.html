@@ -1,0 +1,1037 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Wordpress</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="../apple-touch-icon.png">
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- bootstrap -->
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+  <!-- icon -->
+  <script src="https://use.fontawesome.com/4d141429f4.js"></script>
+  <script src="https://use.fontawesome.com/20daec240b.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+  <header id="header" class="container-fluid ">
+
+
+
+
+    <!-- PARTIE HAUTE -->
+    <section class="container-fluid fixed-top ">
+      <!-- DESKTOP -->
+      <div class="row desktop align-items-center d-flex justify-content-around hidden-xs-down bg-primary">
+
+        <!-- logo -->
+        <a href="../index.html">
+          <figure class="my-2 mw-100" >
+            <img class="w-100" src="https://www.astrazeneca.fr/etc/designs/az/img/logo-az-condensed.png.pagespeed.ce.2AusmX0R-T.png" alt="">
+          </figure>
+
+        </a>
+
+        <div >
+          <nav class=" nav align-middle">
+            <a class="text-white nav-link" href="../index.html">Blog</a>
+            <a class="text-white nav-link font-weight-bold" href="contact.html">Contact</a>
+            <a class="text-white nav-link" href="#">A propos</a>
+          </nav>
+        </div>
+
+        <!-- recherche -->
+
+        <form  class="row search-form">
+          <div class="form-group has-feedback mb-0">
+            <input type="text" class="form-control" name="search" placeholder="Recherche">
+            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+          </div>
+          <i class="ml-2 text-white fa fa-search fa-2x" aria-hidden="true"></i>
+        </form>
+
+
+      </div>
+      <!-- fin desktop -->
+
+
+
+      <!-- PHONE -->
+      <div class="row hidden-sm-up">
+
+        <nav class="pb-0 d-flex justify-content-around w-100 navbar  navbar-toggleable-md navbar-light bg-primary ">
+
+          <button class="mx-5 navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" tabindex="-1">
+            <span class="fa-1x navbar-toggler-icon"></span>
+          </button>
+
+          <!-- logo -->
+          <a class="mx-5" href="#">
+            <figure >
+              <img  src="https://www.astrazeneca.fr/etc/designs/az/img/logo-az-condensed.png.pagespeed.ce.2AusmX0R-T.png" alt="">
+            </figure>
+
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="h4 ml-5 nav-link" href="../index.html">Blog </a>
+              </li>
+              <li class="nav-item active">
+                <a class="h4 ml-5 nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="h4 ml-5 nav-link" href="#">A propos</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Recherche">
+            </form>
+          </div>
+
+        </nav>
+      </div>
+      <!-- fin phone -->
+
+    </section>
+    <!-- fin partie haute -->
+
+
+    <!-- PARTIE BASSE -->
+
+  </header>
+
+  <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@ MAIN @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+  <div class="container mt-5 pt-5">
+    <div class="row">
+
+
+      <main id="main" class="col-12 col-sm-12 col-md-9 col-lg-9">
+
+        <div class="bg-info py-3 mb-3 card">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-lg-12">
+                <h2 class="h1">
+                    Contactez nous <br><small>C'est par ici!</small>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="well well-sm">
+                        <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Nom" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" placeholder="Email" required="required" /></div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option value="choix" >Choix:</option>
+                                        <option value="requete">Requête</option>
+                                        <option value="sug">Suggestions</option>
+                                        <option value="recru">Recrutement</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" onclick="myFunction()" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Envoyer</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                    <span class="h3">
+                     Notre QG
+                    </span>
+                    <hr>
+                    <address>
+                        <strong>Simplon.</strong><br>
+                        87 rue Léon Marlot<br>
+                        Roubaix, 59100<br>
+                        <abbr title="Phone">
+                            Tel:</abbr>
+                        03.20.12.34.45
+                    </address>
+                    <address>
+                        <strong>Wordpress</strong><br>
+                        <a href="mailto:#">email@adep.com</a>
+                    </address>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mt-5">
+
+          <iframe class="col-9 mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.4448840571936!2d3.1895458509900885!3d50.67456657940642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3287cffc4751f%3A0x5a28c76910a7ac19!2sRue+L%C3%A9on+Marlot%2C+59100+Roubaix!5e0!3m2!1sfr!2sfr!4v1497864299414" width="600" height="450" style="border:0" allowfullscreen></iframe>
+        </div>
+        <hr>
+
+
+      </main>
+
+      <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@ ASIDE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+      <aside class="border-bottom-0 hidden-sm-down col-md-3 col-lg-3 bg-faded">
+        <div class="bienvenue">
+
+          <div class="row">
+            <h3 class="h2 mx-auto ">Bienvenue</h3>
+          </div>
+          <div >
+            <figure class="mr-2 float-left">
+              <img class="w-100" src="https://68.media.tumblr.com/avatar_718c5b512d86_128.png" alt="">
+            </figure>
+            <cite class="text-warning font-weight-bold">Auteur</cite>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, explicabo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, excepturi!</p>
+          </div>
+
+          <div class="row">
+            <a href="#" class="mx-auto btn btn-danger">A propos</a>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="d-flex justify-content-center">
+          <a href="#">
+            <figure class="w-100">
+              <img class="w-100" src="http://www.surmezur.com/images/banniere250-1.gif" alt="">
+            </figure>
+          </a>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <h3 class="h2 mx-auto">Suivez nous</h3>
+          <a href="#" class="btn btn-block btn-lg btn-primary"><i class="float-left fa-2x fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+          <a href="#" class="btn btn-block btn-lg btn-success"><i class="float-left fa-2x fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+          <a href="#" class="btn btn-block btn-lg btn-warning"><i class="float-left fa-2x fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+          <a href="#" class="btn btn-block btn-lg btn-info"><i class="float-left fa-2x fa fa-snapchat-square" aria-hidden="true"></i> Snapchat</a>
+        </div>
+
+        <hr>
+
+        <div class="news" >
+          <div class="row">
+            <h3 class="h2 mx-auto ">News Letters</h3>
+          </div>
+
+          <div class="row">
+            <form  class="mb-4 mx-auto col-8 search-form">
+              <div class="form-group has-feedback mb-0">
+                <input type="text" class="form-control" name="search" placeholder="E-mail">
+              </div>
+            </form>
+          </div>
+
+          <div class="row">
+            <a href="#" class="mx-auto btn btn-primary btn-primary"><span class="glyphicon glyphicon-gift"></span> Je m'abonne</a>
+          </div>
+        </div>
+
+        <hr>
+
+        <div >
+
+          <h3 class="h2">Catégorie</h3>
+
+          <nav class="nav flex-column">
+
+            <a class="nav-link active" href="#">Actue</a>
+            <a class="nav-link" href="#">Rétro</a>
+            <a class="nav-link" href="#">Gamming</a>
+            <a class="nav-link" href="#">Canap</a>
+            <a class="nav-link" href="#">Autre</a>
+
+          </nav>
+
+        </div>
+
+
+
+      </aside>
+      <section class="container-fluid mt-5 pt-4 pb-5 bg-faded hidden-sm-down">
+        <div>
+          <!-- ONGLET -->
+          <ul class="row list-unstyled d-flex justify-content-around">
+
+            <li class="bg-info rounded mt-3">
+              <a class="text-black cursor font-weight-bold w-100 px-5" onclick="onglet('Actue')" tabindex="-1">Actue</a>
+            </li>
+
+            <li class="bg-info rounded mt-3">
+              <a class="text-black cursor font-weight-bold w-100 px-5" onclick="onglet('Retro')" tabindex="-1">Retro</a>
+            </li>
+
+            <li class="bg-info rounded mt-3">
+              <a class="text-black cursor font-weight-bold w-100 px-5" onclick="onglet('Gamming')" tabindex="-1">Gamming</a>
+            </li>
+
+            <li class="bg-info rounded mt-3">
+              <a class="text-black cursor font-weight-bold w-100 px-5" onclick="onglet('Canap')" tabindex="-1">Canap</a>
+            </li>
+
+            <li class="bg-info rounded mt-3">
+              <a class="text-black cursor font-weight-bold w-100 px-5" onclick="onglet('Autre')" tabindex="-1">Autre</a>
+            </li>
+          </ul>
+
+        </div>
+
+
+        <!-- CONTENU ONGLET 00000000000000000000000000000000000000000000000000000000000000000000000000 -->
+        <div class="container">
+          <div class="row">
+
+            <!-- ACTUE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+            <div id="contenuActue" class="categorie">
+              <div>
+                <div class="row">
+                  <h2>Derniers articles : <br><span class="h4">Catégorie: Actue</span></h2>
+                </div>
+
+                <div class="row">
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                Mr.Brown
+              </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                Mr.Brown
+              </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3 hidden-sm-down">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates. lorem20</p>
+
+                    <cite class="text-warning font-weight-bold">
+                Mr.Brown
+              </cite>
+
+                  </article>
+
+                  <a href="#" class="col-4 col-md-3 btn btn-block btn-lg">
+                    <div class="rounded h-100 bg-info d-flex">
+                      <i class="align-self-center mx-auto fa-4x fa fa-plus" aria-hidden="true"></i>
+
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- RETRO @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+            <div id="contenuRetro" class="v-collapse categorie">
+              <div>
+                <div class="row">
+                  <h2>Derniers articles : <br><span class="h4">Catégorie: Rétro</span></h2>
+                </div>
+
+                <div class="row">
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3 hidden-sm-down">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates. lorem20</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+
+                  <a href="#" class="col-4 col-md-3 btn btn-block btn-lg">
+                    <div class="rounded h-100 bg-info d-flex">
+                      <i class="align-self-center mx-auto fa-4x fa fa-plus" aria-hidden="true"></i>
+
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <!-- GAMMING @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+            <div id="contenuGamming" class="v-collapse categorie">
+              <div>
+                <div class="row">
+                  <h2>Derniers articles : <br><span class="h4">Catégorie: Gamming</span></h2>
+                </div>
+
+                <div class="row">
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3 hidden-sm-down">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates. lorem20</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+
+                  <a href="#" class="col-4 col-md-3 btn btn-block btn-lg">
+                    <div class="rounded h-100 bg-info d-flex">
+                      <i class="align-self-center mx-auto fa-4x fa fa-plus" aria-hidden="true"></i>
+
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+            <!-- CANAP @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+            <div id="contenuCanap" class="v-collapse categorie">
+              <!-- canap -->
+              <div>
+                <div class="row">
+                  <h2>Derniers articles : <br><span class="h4">Catégorie: Canap</span></h2>
+                </div>
+
+                <div class="row">
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+              Mr.Brown
+            </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+              Mr.Brown
+            </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3 hidden-sm-down">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates. lorem20</p>
+
+                    <cite class="text-warning font-weight-bold">
+              Mr.Brown
+            </cite>
+
+                  </article>
+
+                  <a href="#" class="col-4 col-md-3 btn btn-block btn-lg">
+                    <div class="rounded h-100 bg-info d-flex">
+                      <i class="align-self-center mx-auto fa-4x fa fa-plus" aria-hidden="true"></i>
+
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+            <!-- AUTRE @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+            <div id="contenuAutre" class="v-collapse categorie">
+              <div>
+                <div class="row">
+                  <h2>Derniers articles : <br><span class="h4">Catégorie: Autre</span></h2>
+                </div>
+
+                <div class="row">
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates.</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+                  <article class="col-4 col-md-3 hidden-sm-down">
+
+                    <h4 class="mb-0 h3">Lorem ipsum.</h4>
+
+                    <!-- SOCIAL -->
+                    <div class=" center-block">
+                      <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-2x social"></i></a>
+                      <a href="https://twitter.com/bootsnipp"><i  class="fa fa-twitter-square fa-2x social"></i></a>
+                      <a href="https://plus.google.com/+Bootsnipp-page"><i  class="fa fa-google-plus-square fa-2x social"></i></a>
+                      <a href="mailto:bootsnipp@gmail.com"><i  class="fa fa-envelope-square fa-2x social"></i></a>
+                    </div>
+
+                    <a href="page/article.html">
+                      <figure class="p-relative mw-100 imgart">
+
+                        <span class="datepost">Date</span>
+                        <span class="catpost">Catégorie</span>
+                        <img class="w-100" src="http://www.trucsweb.com/documents/images/2015/bootstrap4.png" alt="bootstrap">
+
+                      </figure>
+
+                    </a>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo error deserunt, tempore! Odit eveniet porro deleniti totam voluptates. lorem20</p>
+
+                    <cite class="text-warning font-weight-bold">
+                  Mr.Brown
+                </cite>
+
+                  </article>
+
+                  <a href="#" class="col-4 col-md-3 btn btn-block btn-lg">
+                    <div class="rounded h-100 bg-info d-flex">
+                      <i class="align-self-center mx-auto fa-4x fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+            <!-- FIN AUTRE -->
+
+          </div>
+
+        </div>
+        <!-- FIN CONTENU ONGLET -->
+
+      </section>
+      <!-- fin partie basse -->
+
+    </div>
+    <!-- fin row main/aside-->
+  </div>
+  <!-- fin container -->
+
+
+  <nav class="d-flex justify-content-center my-5">
+    <ul class="mx-auto pagination">
+      <li class="page-item">
+        <a href="#" class="page-link" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item active"><a href="#" class="page-link">1</a></li>
+      <li class="page-item"><a href="#" class="page-link">2</a></li>
+      <li class="page-item"><a href="#" class="page-link">3</a></li>
+      <li class="page-item"><a href="#" class="page-link">4</a></li>
+      <li class="page-item"><a href="#" class="page-link">5</a></li>
+      <li class="page-item"><a href="#" class="page-link">6</a></li>
+      <li class="page-item"><a href="#" class="page-link">7</a></li>
+      <li class="page-item">
+        <a href="#" class="page-link" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- FOOTER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+  <footer class="footer-1 pb-5 bg-inverse">
+    <div class="container pt-5">
+      <div class="d-flex justify-content-between">
+
+        <div >
+          <nav class="navbar">
+            <nav class="nav navbar-nav">
+              <a class="nav-item nav-link" href="../index.html">Blog</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
+              <a class="nav-item nav-link" href="#">News letters</a>
+              <a class="nav-item nav-link" href="#">A propos</a>
+              <a class="nav-item nav-link" href="#">Partenaires</a>
+            </nav>
+          </nav>
+        </div>
+
+        <nav>
+          <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fa fa-snapchat fa-2x"></i></a>
+        </nav>
+
+        <p class="ml-5 h2 text-white" id="date">
+
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+  function onglet(para){
+    dNoneCat();
+    document.getElementById("contenu" + para).style.display ="block";
+  }
+
+  function dNoneCat(){
+    // rend autre contenu invisible
+    var allCat = document.getElementsByClassName("categorie");
+    // var i;
+    for (var i = 0; i < allCat.length; i++) {
+      allCat[i].style.display = "none";
+    }
+  }
+
+  </script>
+
+
+  <script type="text/javascript">
+    function myFunction(){
+      confirm("Sûr?")
+    };
+  </script>
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+  <!-- Tether -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 4 Alpha JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Initialize Bootstrap functionality -->
+  <script>
+    // Initialize tooltip component
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    // Initialize popover component
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    })
+  </script>
+
+</body>
+
+</html>
